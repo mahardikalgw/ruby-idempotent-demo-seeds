@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "idempotent-demo-seeds": {
-      "source": "mahardikalgw/idempotent-demo-seeds",
+      "source": "mahardikalgw/ruby-idempotent-demo-seeds",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/idempotent-demo-seeds.git
-ln -s "$PWD/idempotent-demo-seeds" .claude/skills/idempotent-demo-seeds
+git clone git@github.com:mahardikalgw/ruby-idempotent-demo-seeds.git
+ln -s "$PWD/ruby-idempotent-demo-seeds" .claude/skills/idempotent-demo-seeds
 ```
 
 ## When to activate
@@ -39,9 +39,10 @@ ln -s "$PWD/idempotent-demo-seeds" .claude/skills/idempotent-demo-seeds
 ## What's inside
 
 ```
-idempotent-demo-seeds/
+ruby-idempotent-demo-seeds/
   SKILL.md
   assets/seeds_skeleton.rb
+  bin/check-skill
   references/seeding.md
 ```
 
@@ -60,8 +61,8 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`postgres-pgvector-baseline`](https://github.com/mahardikalgw/postgres-pgvector-baseline) — PostgreSQL 16 + pgvector everywhere, Solid stores, the fresh-clone traps
-- [`merge-gate-parity`](https://github.com/mahardikalgw/merge-gate-parity) — one gate list in every file, a script contract, and local/CI triage
+- [`postgres-pgvector-baseline`](https://github.com/mahardikalgw/ruby-postgres-pgvector-baseline) — PostgreSQL 16 + pgvector everywhere, Solid stores, the fresh-clone traps
+- [`merge-gate-parity`](https://github.com/mahardikalgw/ruby-merge-gate-parity) — one gate list in every file, a script contract, and local/CI triage
 
 ## Licence
 
